@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Parte do section */
+section{
+    margin-top: 50px;
+    text-align: center;
+}
+
+section h2{
+    font-size: 30px;
+}
+
+.project-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: var(--bg-card);
+    border: 3px solid var(--border-soft);
+    box-shadow: var(--glow) 0px 0px 10px, var(--glow) 0px 0px 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-card img{
+    width: 300px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+
+/* Botões e titulo no preview do projeto */
+
+.project-content{
+    width: 290px;
+    text-align: center;
+}
+.project-buttom{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 12px auto;
+    cursor: pointer;
+}
+
+.project-buttom a{
+    color: var(--bg-main);
+    text-decoration: none;  
+}
+
+.project-buttom:hover{
+    position: relative;
+    box-shadow: inset 0 0 20px var(--bg-main);
+    transition: all 0.3s ease;
+    top: -5px;
+}
+
+@media (max-width: 768px){
+    .project-card{
+        flex-direction: column;
+        text-align: center;
+        width: 295px;
+    }
+
+    .project-card img{
+        width: 100%;
+    }
+
+    .project-content{
+        width: 100%;
+    }
+
+    .xp{
+        display: block;
+    }
+}

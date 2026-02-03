@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+  --bg-main: #080d18;
+  --bg-card: #0b121f;
+  --border-soft: #162A45;
+
+  --primary: #00C2FF;
+  --primary-hover: #1AD1FF;
+
+  --text-title: #FFFFFF;
+  --text-main: #D0D6E0;
+  --text-muted: #8A94A6;
+
+  --glow: rgba(0, 194, 255, 0.3);
+}
+
+/* Fonte do Site */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all 1s ease; */
+
+}
+
+* a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    width: 100%;
+    background-image: linear-gradient(to bottom,#0b1c2d 0%,#0e253f 40%,#0a1624 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+
+
