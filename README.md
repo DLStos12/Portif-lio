@@ -20,10 +20,9 @@ Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e exp
 
 ## 🔗 Acesse o projeto
 
-👉 https://seuusuario.github.io
+👉 https://dlstos12.github.io/Portif-lio/
 
 ## 🛠 Como executar localmente
 
 ```bash
-git clone https://github.com/seuusuario/seu-repo.git
-cd seu-repo
+git clone https://dlstos12.github.io/Portif-lio/.git
