@@ -10,11 +10,14 @@ section h2{
     font-size: 30px;
 }
 
+
+/* Cards do Peview do projeto */
 .project-grid{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 30px;
+    justify-content: center;
 }
 
 .project-card{
@@ -40,6 +43,7 @@ section h2{
     width: 290px;
     text-align: center;
 }
+
 .project-buttom{
     background-color: var(--primary);
     padding: 10px;

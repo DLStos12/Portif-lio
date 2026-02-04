@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Derick Luiz | Portfólio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/aside.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/section.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,9 +16,9 @@
     <header>
         <img src="assets/images/angles-right-solid-full.svg" alt="angle">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
+            <a href="index.html">Home</a>
+            <a href="pages/projetos.html">Projetos</a>
+            <a href="#contato">Contato</a>
         </nav>
         <img src="assets/images/angles-right-solid-full.svg" alt=" angle" id="angle-right">
     </header>
@@ -33,12 +33,17 @@
                 <p>
                     Crio sites modernos e responsivos para pequenos negócios.
                 </p>
-                <button class="bt-azul">
-                    Ver meus Projetos
-                </button>
-                <button class="bt-escuro">
-                    Sobre mim
-                </button>
+                <a href="https://github.com/repos?q=owner%3A%40me&type=source&language=" target="_blank">
+                    <button class="bt-azul">
+                        Ver meus Projetos no GitHub
+                    </button>
+                </a>
+
+                <a href="#sobre">
+                    <button class="bt-escuro">
+                        Sobre mim
+                    </button>
+                </a>
         </div>
                 <!-- Imagem Principal -->
                 <img src="assets/images/programing.png" alt="imagem principal">
@@ -87,9 +92,9 @@
                     </a>
                     
                     <a href="https://github.com/DLStos12/cartas_vivas" id="bt-escuro" target="_blank">
-                        <div class="project-buttom">
+                        <div class="project-buttom"  id="sobre">
                             Ver no GitHub
-                        </div>
+                        </div >
                     </a>
                 </div>
             </div>
@@ -149,7 +154,7 @@
             </div>
         </aside>
 
-        <footer>
+        <footer id="contato">
             <h2>Entre em Contato</h2>
             <hr>
             <p>
