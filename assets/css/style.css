@@ -222,6 +222,34 @@ background: linear-gradient(
   margin-right: -35px;
 }
 
+.head-main .imagem-principal{
+  animation: imagemPrincipalFloat 4.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 16px rgba(0, 194, 255, 0.35));
+  transition: filter 0.3s ease;
+  will-change: transform, filter;
+}
+
+.head-main .imagem-principal:hover{
+  filter: drop-shadow(0 0 26px rgba(26, 209, 255, 0.65));
+}
+
+@keyframes imagemPrincipalFloat {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(-1deg) scale(1);
+  }
+
+  50% {
+    transform: translate3d(0, -18px, 0) rotate(2deg) scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .head-main .imagem-principal{
+    animation: none;
+    will-change: auto;
+  }
+}
+
 /* Parte do section */
 section{
   margin-top: 50px;
